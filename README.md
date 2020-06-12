@@ -34,3 +34,8 @@ Now open you browser and enter the above URL.
 - You can type urls like https://localhost:1303/any_name.html
 	- you will see the page if it exists
 	- you will encounter error depending upon non-existence or bad format/method of file
+
+
+### Files in public folder
+- index.html (default)
+- about.hmtl
