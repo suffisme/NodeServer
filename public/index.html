@@ -1,9 +1,172 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sufiyan</title>
+	<title>My First Web</title>
+	<style>
+	*{
+		margin :0;
+		padding:0;
+	}
+	body{
+		background-color: #dc3545;
+	}
+	.body{
+		margin-top:8%;
+		background: #333;
+		height: 440px;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	.load-heading{
+		color:#f1f1f1;
+		position: absolute;
+		top :42%;
+		left : 40%;
+		display: flex;
+	}
+
+	.load-body{
+		position: absolute;
+		top :50%;
+		left : 42%;
+		width: 150px;
+		height: 150px;
+		display: flex;
+	}
+
+	.load-body span{
+		width: 30px;
+		height: 10px;
+		position: relative;
+		display: inline-block;
+		background: crimson;
+	}
+
+	.bar1{
+		animation: b1 2s infinite;
+	}
+	.bar2{
+		animation: b2 2s infinite;
+	}
+	.bar3{
+		animation: b3 2s infinite;
+	}
+	.bar4{
+		animation: b4 2s infinite;
+	}
+	.bar5{
+		animation: b5 2s infinite;
+	}
+
+	@keyframes b1{
+		20%{
+			height: 60px;
+		}
+		40%{
+			height: 2px;
+		}
+		60%{
+			height: 2px;
+		}
+		80%{
+			height: 2px;
+		}
+		100%{
+			height: 2px;
+		}
+	}
+
+	@keyframes b2{
+		20%{background: crimson;
+			height: 2px;
+		}
+		40%{
+			background: blue;
+			height: 70px;
+		}
+		60%{background: crimson;
+			height: 2px;
+		}
+		80%{background: crimson;
+			height: 2px;
+		}
+		100%{background: crimson;
+			height: 2px;
+		}
+	}
+
+	@keyframes b3{
+		20%{background: crimson;
+			height: 2px;
+		}
+		40%{background: crimson;
+			height: 2px;
+		}
+		60%{
+			background: rgba(41,219,255,1);
+			height: 80px;
+		}
+		80%{background: crimson;
+			height:2px;
+		}
+		100%{background: crimson;
+			height:2px;
+		}
+	}
+
+	@keyframes b4{
+		20%{background: crimson;
+			height: 2px;
+		}
+		40%{background: crimson;
+			height: 2px;
+		}
+		60%{background: crimson;
+			height: 2px;
+		}
+		80%{
+			background: yellow;
+			height: 90px;
+		}
+		100%{background: crimson;
+			height: 2px;
+		}
+	}
+
+	@keyframes b5{
+		20%{background: crimson;
+			height: 2px;
+		}
+		40%{background: crimson;
+			height: 2px;
+		}
+		60%{background: crimson;
+			height: 2px;
+		}
+		80%{background: crimson;
+			height:2px;
+		}
+		100%{
+			background: MediumSeaGreen;
+			height: 100px;
+		}
+	}
+
+	</style>
 </head>
 <body>
-<h1>Node Js File</h1>
+	<div class="body">
+	<div class="load-heading">
+		<h1>Node Js Working</h1>
+	</div>
+	<div class="load-body">
+		<span class="bar1"></span>
+		<span class="bar2"></span>
+		<span class="bar3"></span>
+		<span class="bar4"></span>
+		<span class="bar5"></span>
+	</div>
+</div>
 </body>
 </html>
