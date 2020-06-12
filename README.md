@@ -23,7 +23,8 @@ or
 ```
 npm start
 ```
-> You will see like this
+
+You will see like this
 ```
 server running at https://localhost:1303
 ```
@@ -32,4 +33,4 @@ Now open you browser and enter the above URL.
 ##### By default it will open index.html of public folder
 - You can type urls like https://localhost:1303/any_name.html
 	- you will see the page if it exists
-	- you will encounter error depending upon non-existence or bad format of file
+	- you will encounter error depending upon non-existence or bad format/method of file
